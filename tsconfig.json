@@ -1,0 +1,10 @@
+{
+	"extends": "@tsconfig/react-native/tsconfig.json",
+	"compilerOptions": {
+		"moduleResolution": "node",
+		"noFallthroughCasesInSwitch": true,
+		"module": "esnext",
+		"jsx": "react-jsx"
+	},
+	"include": ["src"]
+}
